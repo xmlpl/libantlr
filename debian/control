@@ -1,0 +1,16 @@
+Source: libantlr
+Section: unknown
+Priority: optional
+Maintainer: Joseph Coffland <joseph@xmlpl.org>
+Build-Depends: debhelper (>= 4.0.0), autotools-dev, cdbs, debhelper (>= 4.0)
+Standards-Version: 3.6.2
+
+Package: libantlr
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: c++ library for antlr parser generator
+ *** Unofficial package from joseph@xmlpl.org ***
+ .
+ c++ library for antlr parser generator.  Includes
+ special modifications for the XmlPL language.
+ See xmlpl.org
